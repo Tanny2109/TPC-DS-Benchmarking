@@ -12,9 +12,9 @@ oracle_ADB_1GB_100GB contains instructions to setup Oracle ADB on cloud to run 1
 
 Clone the spark-tpc-ds-performance-test repo locally. In a terminal, run:
 
-'''bash
+```bash
 $ git clone https://github.com/Tanny2109/TPC-DS-Benchmarking 
-'''
+```
 
 This directory has be reconfigured to work with MacOs
 
@@ -28,9 +28,9 @@ spark-tpc-ds-performance-test directory only contains TPC-DS workload at 1GB Sca
 To obtain higher TPC-DS workload, download it from TPC.com or clone the repo TPC_DS_toolkit_2.2
 This toolkit has be reconfigured to work with MacOs
 
-'''bash
+```bash
 git clone https://github.com/Tanny2109/TPC-DS-Benchmarking/TPC_DS_toolkit_2.2/
-'''
+```
 
 Follow this guideline to generate TPC-DS  data at different scales and  queries 
 https://github.com/IBM/spark-tpc-ds-performance-test
