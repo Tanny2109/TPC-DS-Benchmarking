@@ -1,0 +1,49 @@
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/call_center.ctl log=sql_loader_ctl/call_center.log & echo "call_center: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/catalog_page.ctl log=sql_loader_ctl/catalog_page.log & echo "catalog_page: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/catalog_returns.ctl log=sql_loader_ctl/catalog_returns.log & echo "catalog_returns: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/catalog_sales.ctl log=sql_loader_ctl/catalog_sales.log & echo "catalog_sales: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/customer.ctl log=sql_loader_ctl/customer.log & echo "customer: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/customer_address.ctl log=sql_loader_ctl/customer_address.log & echo "customer_address: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/customer_demographics.ctl log=sql_loader_ctl/customer_demographics.log & echo "customer_demographics: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/date_dim.ctl log=sql_loader_ctl/date_dim.log & echo "date_dim: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/dbgen_version.ctl log=sql_loader_ctl/dbgen_version.log & echo "dbgen_version: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/household_demographics.ctl log=sql_loader_ctl/household_demographics.log & echo "household_demographics: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/income_band.ctl log=sql_loader_ctl/income_band.log & echo "income_band: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/inventory.ctl log=sql_loader_ctl/inventory.log & echo "inventory: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/item.ctl log=sql_loader_ctl/item.log & echo "item: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/promotion.ctl log=sql_loader_ctl/promotion.log & echo "promotion: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/reason.ctl log=sql_loader_ctl/reason.log & echo "reason: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/ship_mode.ctl log=sql_loader_ctl/ship_mode.log & echo "ship_mode: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/store.ctl log=sql_loader_ctl/store.log & echo "store: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/store_returns.ctl log=sql_loader_ctl/store_returns.log & echo "store_returns: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/store_sales.ctl log=sql_loader_ctl/store_sales.log & echo "store_sales: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/time_dim.ctl log=sql_loader_ctl/time_dim.log & echo "time_dim: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/warehouse.ctl log=sql_loader_ctl/warehouse.log & echo "warehouse: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/web_page.ctl log=sql_loader_ctl/web_page.log & echo "web_page: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/web_returns.ctl log=sql_loader_ctl/web_returns.log & echo "web_returns: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/web_sales.ctl log=sql_loader_ctl/web_sales.log & echo "web_sales: $(date)" >> task_time.log
+
+nohup sqlldr userid='admin/password_hidden@class6400100gb_high' control=sql_loader_ctl/web_site.ctl log=sql_loader_ctl/web_site.log & echo "web_site: $(date)" >> task_time.log

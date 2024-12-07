@@ -1,0 +1,2 @@
+./dsdgen -SCALE 100 -DIR TCP_DS_100GB_dat
+./dsdgen -SCALE 1 -DIR TCP_DS_1GB_dat
